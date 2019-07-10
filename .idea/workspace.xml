@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bff77476-22ca-4b47-b8f8-86568e75002f" name="Default Changelist" comment="" />
+    <list default="true" id="bff77476-22ca-4b47-b8f8-86568e75002f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/health-check/common-default.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/health-check/common-default.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/infra/common-default.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/infra/common-default.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/suishen-sofa-boot/target/" />
+    <ignored path="$PROJECT_DIR$/suishen-sofa-tracer-mvc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="120">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -35,7 +44,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/src/main/java/suishen/suishen/sofa/boot/SuishenSofaBootApplication.java">
+        <entry file="file://$PROJECT_DIR$/suishen-sofa-tracer-mvc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suishen-sofa-tracer-mvc/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suishen-sofa-tracer-mvc/src/main/java/suishen/suishen/sofa/tracer/mvc/SuishenSofaTracerMvcApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -44,24 +71,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/pom.xml">
+        <entry file="file://$PROJECT_DIR$/suishen-sofa-tracer-mvc/src/main/java/suishen/suishen/sofa/tracer/mvc/controller/SampleRequestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="195">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#601#617#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/src/test/java/suishen/suishen/sofa/boot/SuishenSofaBootApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/src/main/java/suishen/suishen/sofa/boot/SuishenSofaBootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="100">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/health-check/common-default.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="34" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,6 +133,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/suishen-sofa-boot/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/suishen-sofa-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/suishen-sofa-tracer-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/suishen-sofa-tracer-mvc/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/suishen-sofa-tracer-mvc/src/main/java/suishen/suishen/sofa/tracer/mvc/controller/SampleRequestController.java" />
       </list>
     </option>
   </component>
@@ -105,6 +172,7 @@
     <option name="width" value="1229" />
     <option name="height" value="659" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -127,64 +195,55 @@
             <path>
               <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
               <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
-              <item name="suishen-sofa-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="suishen-sofa-tracer-mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
+              <item name="suishen-sofa-tracer-mvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
               <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
-              <item name="suishen-sofa-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
-              <item name="suishen-sofa-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="suishen-sofa-tracer-mvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
               <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
-              <item name="suishen-sofa-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="suishen-sofa-tracer-mvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
               <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
-              <item name="suishen-sofa-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="suishen-sofa-tracer-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
+              <item name="suishen-sofa-tracer-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
+              <item name="suishen-sofa-tracer-mvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
-              <item name="suishen-sofa-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
-              <item name="suishen-sofa-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suishen-sofa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suishen-sofa" type="462c0819:PsiDirectoryNode" />
-              <item name="suishen-sofa-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,12 +252,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java_code\sofa\suishen-sofa" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,10 +280,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SuishenSofaTracerMvcApplication">
     <configuration name="SuishenSofaBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="suishen-sofa-boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="suishen.suishen.sofa.boot.SuishenSofaBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuishenSofaTracerMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="suishen-sofa-tracer-mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="suishen.suishen.sofa.tracer.mvc.SuishenSofaTracerMvcApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,12 +306,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562744146530</updated>
-      <workItem from="1562744149126" duration="587000" />
+      <workItem from="1562744149126" duration="1367000" />
     </task>
+    <task id="LOCAL-00001" summary="init:初始化项目">
+      <created>1562744883568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562744883568</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="587000" />
+    <option name="totallyTimeSpent" value="1367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
@@ -255,7 +338,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" weight="0.32960895" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -264,7 +347,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.18589026" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -284,11 +367,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init:初始化项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="init:初始化项目" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/src/main/resources/application.properties">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.0.RELEASE/spring-boot-dependencies-2.1.0.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="1811">
+          <caret line="499" column="12" selection-start-line="499" selection-start-column="12" selection-end-line="499" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/src/test/java/suishen/suishen/sofa/boot/SuishenSofaBootApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/health-check/common-error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/health-check/common-default.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -299,24 +409,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/src/test/java/suishen/suishen/sofa/boot/SuishenSofaBootApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/suishen-sofa-boot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="500">
+          <caret line="34" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suishen-sofa-tracer-mvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suishen-sofa-tracer-mvc/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suishen-sofa-tracer-mvc/src/main/java/suishen/suishen/sofa/tracer/mvc/SuishenSofaTracerMvcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suishen-sofa-tracer-mvc/src/main/java/suishen/suishen/sofa/tracer/mvc/controller/SampleRequestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#601#617#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
