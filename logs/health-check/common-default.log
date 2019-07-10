@@ -1,0 +1,14 @@
+2019-07-10 15:45:56,124 INFO  main                             - SOFABoot HealthCheck Starting!
+2019-07-10 15:45:59,345 INFO  main                             - Found 0 HealthChecker implementation:
+2019-07-10 15:45:59,347 INFO  main                             - Found 2 HealthIndicator implementation:sofaBootHealthIndicator,diskSpaceHealthIndicator
+2019-07-10 15:45:59,348 INFO  main                             - Found 0 ReadinessCheckCallback implementation: 
+2019-07-10 15:45:59,348 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2019-07-10 15:45:59,350 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2019-07-10 15:45:59,351 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2019-07-10 15:45:59,353 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2019-07-10 15:45:59,355 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2019-07-10 15:45:59,356 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2019-07-10 15:45:59,356 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2019-07-10 15:45:59,356 INFO  main                             - Readiness check result: success
+2019-07-10 15:45:59,929 INFO  RMI TCP Connection(2)-169.254.28.152 - Begin SOFABoot HealthChecker liveness check.
+2019-07-10 15:45:59,930 INFO  RMI TCP Connection(2)-169.254.28.152 - SOFABoot HealthChecker liveness check result: success.
